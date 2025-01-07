@@ -14,3 +14,7 @@ def read_root():
 @app.post("/blog")
 def create_blog(request: Blog):
     return request
+
+@app.post("/create/blog")
+def create_blog(request: Blog):
+    return request
